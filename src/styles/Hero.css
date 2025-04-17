@@ -1,4 +1,4 @@
-.hero {
+.main__hero {
     background-image: url("../assets/img/bank-tree.jpeg");
     background-position: 0 -50px;
     background-size: cover;
@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.hero__heroContent {
+.main__hero__heroContent {
     position: relative;
     top: 2rem;
     width: 200px;
@@ -17,24 +17,24 @@
     margin: 0 auto;
 }
 
-.hero__heroContent__subtitle {
+.main__hero__heroContent__subtitle {
     font-weight: bold;
     font-size: 1rem;
     margin: 0;
 }
 
-.hero__heroContent__text {
+.main__hero__heroContent__text {
     margin-bottom: 0;
     font-size: 0.9rem;
 }
 
 @media screen and (min-width: 920px) {
-    .hero {
+    .main__hero {
         height: 400px;
         background-position: 0% 33%;
     }
 
-    .hero__heroContent {
+    .main__hero__heroContent {
         position: absolute;
         top: 50px;
         right: 50px;
@@ -42,11 +42,11 @@
         margin: 2rem;
     }
 
-    .hero__heroContent__subtitle {
+    .main__hero__heroContent__subtitle {
         font-size: 1.5rem;
     }
 
-    .hero__heroContent__text {
+    .main__hero__heroContent__text {
         font-size: 1.2rem;
     }
 }
