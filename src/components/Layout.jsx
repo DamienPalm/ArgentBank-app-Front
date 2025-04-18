@@ -28,9 +28,7 @@ export function Layout() {
           </NavLink>
         </nav>
       </header>
-      <main className="main">
-        <Outlet />
-      </main>
+      <Outlet />
       <footer className="footer">
         <p className="footer__copyright">Copyright 2020 Argent Bank</p>
       </footer>

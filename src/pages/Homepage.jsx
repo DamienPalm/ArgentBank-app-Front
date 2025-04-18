@@ -6,7 +6,7 @@ import security from "../assets/img/icon-security.png";
 
 export function Homepage() {
   return (
-    <>
+    <main className="main">
       <Hero />
       <section className="main__features">
         <h2 className="sr-only">Features</h2>
@@ -35,6 +35,6 @@ export function Homepage() {
           }
         />
       </section>
-    </>
+    </main>
   );
 }
