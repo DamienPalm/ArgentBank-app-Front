@@ -1,0 +1,23 @@
+.main__signInContent__form__inputWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.main__signInContent__form__inputWrapper__label {
+    font-weight: bold;
+}
+
+.main__signInContent__form__inputWrapper__input {
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.main__signInContent__form__inputRemember {
+    display: flex;
+}
+
+.main__signInContent__form__inputRemember__label {
+    margin-left: 0.25rem;
+}
