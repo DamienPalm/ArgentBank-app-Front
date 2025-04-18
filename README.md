@@ -23,6 +23,12 @@ npm install
 npm install react-router
 ```
 
+### Installation de redux
+
+```
+npm install @reduxjs/toolkit
+```
+
 ## Ajout du script Font Awesome
 
 Pour l'utilisation des icones dans le projet via le site (https://fontawesome.com/)
