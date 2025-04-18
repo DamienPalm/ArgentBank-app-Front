@@ -1,0 +1,29 @@
+.main__features {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__features__featureItem {
+    flex: 1;
+    padding: 2.5rem;
+}
+
+.main__features__featureItem__icon {
+    width: 100px;
+    border: 10px solid #00bc77;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.main__features__featureItem__title {
+    color: #222;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 920px) {
+    .main__features {
+        flex-direction: row;
+    }
+}
