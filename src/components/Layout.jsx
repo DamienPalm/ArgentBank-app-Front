@@ -20,7 +20,7 @@ export function Layout() {
             <h1 className="sr-only">Argent Bank</h1>
           </NavLink>
           <NavLink
-            to="/sign-in"
+            to="/signin"
             className="header__navbar__link header__navbar__item"
           >
             <i className="fa fa-user-circle"></i>
