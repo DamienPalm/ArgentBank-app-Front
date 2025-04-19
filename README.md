@@ -27,6 +27,7 @@ npm install react-router
 
 ```
 npm install @reduxjs/toolkit
+npm install react-redux
 ```
 
 ## Ajout du script Font Awesome
