@@ -27,7 +27,6 @@ npm install react-router
 
 ```
 npm install @reduxjs/toolkit
-npm install react-redux
 ```
 
 ### Installation de axios
